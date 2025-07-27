@@ -282,6 +282,7 @@ HIGHLIGHTS
 
 .highlight__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .highlight {
@@ -314,6 +315,7 @@ HIGHLIGHTS
 
 .highlight__para {
   max-width: 280px;
+  padding: 12px;
 }
 
 /* 
@@ -329,6 +331,7 @@ FEATURES
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -475,6 +478,14 @@ footer {
   }
   .btn__menu {
     display: flex;
+  }
+
+  .highlight {
+    width: 100%;  
+  }
+
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
   }
 }
 
