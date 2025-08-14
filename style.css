@@ -393,6 +393,11 @@ ALL BOOKS
   flex: 1;
 }
 
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .books__header {
   display: flex;
   justify-content: space-between;

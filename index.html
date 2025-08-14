@@ -55,7 +55,7 @@
             <h2>
               Find your dream book with <span class="purple">Library</span>
             </h2>
-            <a href="#features">
+            <a href="books.html" target="_blank">
               <button class="btn">Browse Books</button>
             </a>
           </div>
@@ -114,9 +114,9 @@
               <div class="book">
                 <figure class="book__img--wrapper">
                   <img
-                  class="book__img"
-                  src="assets/crack the coding interview.png"
-                  alt="Cracking the Coding Interview"
+                    class="book__img"
+                    src="assets/crack the coding interview.png"
+                    alt="Cracking the Coding Interview"
                   />
                 </figure>
                 <div class="book__title">Cracking the Coding Interview</div>
@@ -131,13 +131,13 @@
                   <span class="book__price--normal">$49.95</span> $14.95
                 </div>
               </div>
-              
+
               <div class="book">
                 <figure class="book__img--wrapper">
                   <img
-                  class="book__img"
-                  src="assets/atomic habits.jpg"
-                  alt=""
+                    class="book__img"
+                    src="assets/atomic habits.jpg"
+                    alt=""
                   />
                 </figure>
                 <div class="book__title">Atomic Habits</div>
@@ -148,16 +148,14 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star-half-alt"></i>
                 </div>
-                <div class="book__price">
-                  $39.00
-                </div>
+                <div class="book__price">$39.00</div>
               </div>
               <div class="book">
                 <figure class="book__img--wrapper">
                   <img
-                  class="book__img"
-                  src="assets/david goggins.jpeg"
-                  alt=""
+                    class="book__img"
+                    src="assets/david goggins.jpeg"
+                    alt=""
                   />
                 </figure>
                 <div class="book__title">Can't Hurt Me</div>
@@ -175,9 +173,9 @@
               <div class="book">
                 <figure class="book__img--wrapper">
                   <img
-                  class="book__img"
-                  src="assets/deep work.jpeg"
-                  alt="Cracking the Coding Interview"
+                    class="book__img"
+                    src="assets/deep work.jpeg"
+                    alt="Cracking the Coding Interview"
                   />
                 </figure>
                 <div class="book__title">Deep Work</div>
@@ -199,28 +197,99 @@
       <section id="recents">
         <div class="container">
           <div class="row">
-            <div class="books__header">
-              <h2 class="section__title">
-                Latest <span class="purple">Books</span>
-              </h2>
-              <select id="filter" onchange="filterBooks(event)">
-                <option value="" disabled selected>Sort</option>
-                <option value="A-Z">A-Z</option>
-                <option value="LOW_TO_HIGH">Price, Low to High</option>
-                <option value="HIGH_TO_LOW">Price, High to Low</option>
-                <option value="RATING">Rating</option>
-              </select>
-            </div>
-              <div class="books" >
+            <h2 class="section__title">
+              Latest <span class="purple">Books</span>
+            </h2>
+            <div class="books">
+              <div class="book">
+                <figure class="book__img--wrapper">
+                  <img
+                    class="book__img"
+                    src="assets/book-1.jpeg"
+                    alt="Cracking the Coding Interview"
+                  />
+                </figure>
+                <div class="book__title">The 10X Rule</div>
+                <div class="book__ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="book__price">
+                  <span class="book__price--normal">$44.00</span> $19.00
+                </div>
               </div>
+              <div class="book">
+                <figure class="book__img--wrapper">
+                  <img
+                    class="book__img"
+                    src="assets/book-3.jpeg"
+                    alt="Cracking the Coding Interview"
+                  />
+                </figure>
+                <div class="book__title">Rich Dad Poor Dad</div>
+                <div class="book__ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="book__price">
+                  <span class="book__price--normal">$70.00</span> $12.50
+                </div>
+              </div>
+              <div class="book">
+                <figure class="book__img--wrapper">
+                  <img
+                    class="book__img"
+                    src="assets/book-2.jpeg"
+                    alt="Cracking the Coding Interview"
+                  />
+                </figure>
+                <div class="book__title">Be Obsessed or Be Average</div>
+                <div class="book__ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="book__price">
+                  <span class="book__price--normal">$32.00</span> $17.00
+                </div>
+              </div>
+              <div class="book">
+                <figure class="book__img--wrapper">
+                  <img
+                    class="book__img"
+                    src="assets/deep work.jpeg"
+                    alt="Cracking the Coding Interview"
+                  />
+                </figure>
+                <div class="book__title">Deep Work</div>
+                <div class="book__ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="book__price">
+                  <span class="book__price--normal">$29.00</span> $12.00
+                </div>
               </div>
             </div>
+          </div>
+        </div>
       </section>
       <section id="explore">
         <div class="container">
           <div class="row row__column">
             <h2>Explore More <span class="purple">Books</span></h2>
-            <a href="#features">
+            <a href="books.html" target="_blank">
               <button class="btn">Browse Books</button>
             </a>
           </div>
