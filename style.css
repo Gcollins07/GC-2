@@ -329,7 +329,7 @@ FEATURES
   padding-top: 120px;
 }
 
-.books {
+.featured__books {
   display: flex;
   flex-wrap: wrap;
 }
@@ -378,6 +378,30 @@ FEATURES
 
 /* 
 
+ALL BOOKS
+
+*/
+
+.books__header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px;
+}
+
+#filter {
+  margin-bottom: 32px;
+  margin-top: 60px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+/* 
+
 EXPLORE
 
 */
@@ -385,6 +409,7 @@ EXPLORE
 #explore {
   background-color: rgba(115, 66, 214, 0.1);
 }
+
 
 /* 
 
