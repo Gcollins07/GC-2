@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -19,6 +18,7 @@ body {
 nav {
   height: 80px;
   display: flex;
+  padding-top: 24px;
 }
 
 img {
@@ -214,9 +214,9 @@ button:active {
   z-index: 2;
 }
 
-.container {
+/* .container {
   padding: 56px 0;
-}
+} */
 
 .row {
   width: 100%;
@@ -252,7 +252,7 @@ HIGHLIGHTS
   position: absolute;
   content: "";
   width: 100vw;
-  height: 12vh;
+  height: 12vw;
   left: 0;
   z-index: 1;
   background-size: cover;
@@ -260,7 +260,7 @@ HIGHLIGHTS
 }
 
 #highlights:before {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   transform: translateY(-100%);
   top: 1px;
 }
@@ -273,7 +273,7 @@ HIGHLIGHTS
 
 .highlights__container {
   z-index: 1;
-  padding: 0;
+  padding: 24px 0;
 }
 
 .highlights__row {
@@ -327,6 +327,11 @@ FEATURES
 #features {
   background-color: rgba(115, 66, 214, 0.1);
   padding-top: 120px;
+
+}
+
+.features__container {
+margin-top: 140px;
 }
 
 .featured__books {
@@ -428,18 +433,18 @@ select {
   max-width: 200px;
 }
 
-.books__loading {
+.books__waiting {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 60px;
-  font-size: 60px;
   color: #7342d6;
 }
 
 .books__loading--spinner {
   display: none !important;
+  font-size: 60px;
 }
 
 .books__loading .books__loading--spinner {
@@ -519,6 +524,14 @@ footer {
   transform: translateX(60px);
 }
 
+/* SMALL LAPTOPS */
+
+@media (max-width: 1180px) {
+  .features__container{
+    margin-top: 80px;
+  }
+}
+
 /* SMARTPHONES, TABLETS */
 
 @media (max-width: 768px) {
@@ -569,5 +582,8 @@ footer {
   }
   h2 {
     font-size: 28px;
+  }
+  .features__container {
+    margin-top: 24px;
   }
 }
